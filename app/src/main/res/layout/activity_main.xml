@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:background="@color/Shell"
+        tools:context=".MainActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="In Days!!!"
+            android:textSize="28sp" android:textColor="@color/headingColor"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Please choose a starting date"
+            android:gravity="center"
+            android:textSize="20sp" android:textColor="@color/Black"
+            android:layout_marginTop="50dp" android:fontFamily="@font/amarante"
+    />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="SELECT THE DATE"
+            android:id="@+id/DateSelect1"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10sp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Please choose an ending date"
+            android:gravity="center"
+            android:textSize="20sp" android:textColor="@color/Black"
+            android:layout_marginTop="15dp" android:fontFamily="@font/amarante"
+    />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="SELECT THE DATE"
+            android:id="@+id/DateSelect2"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10sp"
+    />
+    <TextView
+            android:id="@+id/SelectedDates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="18sp" android:textColor="@color/Black"
+            android:layout_marginTop="20dp" android:fontFamily="sans-serif"
+    />
+    <TextView
+            android:id="@+id/InDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:gravity="center"
+            android:textSize="43sp" android:textColor="@color/headingColor"
+            android:layout_marginTop="40dp" android:fontFamily="@font/advent_pro_bold"
+    />
+
+</LinearLayout>
